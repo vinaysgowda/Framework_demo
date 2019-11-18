@@ -13,6 +13,7 @@ def Login():
         global driver
         driver = webdriver.Chrome()
 
+
     def login_to_account(self):
         driver.get('https://pypi.org/')
         driver.find_element_by_xpath(_login_button)
